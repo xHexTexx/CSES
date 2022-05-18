@@ -1,0 +1,8 @@
+{
+    "nuxt.isNuxtApp": false,
+    "files.associations": {
+        "*.tcc": "cpp",
+        "ratio": "cpp",
+        "regex": "cpp"
+    }
+}
