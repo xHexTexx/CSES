@@ -34,7 +34,7 @@ int main(){
 
     dfs(1 , -1) ;
 
-    cout << max(dp[1][0] , dp[1][1]); 
+    cout << dp[1][1] ; 
     
     return 0 ;
 }
