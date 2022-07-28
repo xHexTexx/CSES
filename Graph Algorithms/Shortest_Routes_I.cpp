@@ -41,8 +41,10 @@ int main(){
         auto temp = pq.top() ;
         pq.pop() ;
 
+        if(temp.w > dis[temp.v])continue ;
         for(auto i : adj[temp.v]){
             int nowv = i.v ; long long noww = temp.w + i.w ; 
+            
             if(dis[nowv] > noww){
                 dis[nowv] = noww ;
                 pq.push({nowv , noww});
